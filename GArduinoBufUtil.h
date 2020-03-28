@@ -24,6 +24,7 @@ class RecBuf{
               cmd = origVal.substring(0,cmdNamePos-1);
               val = origVal.substring(cmdNamePos);
             }else {
+              cmd = "";
               val = origVal;
             }
             cmdNamePos = -1;
